@@ -13,6 +13,14 @@
  * The algorithm was implemented in C due to how both the programming language and algorithm
  * parallel one another in basic concept. Both are very simple. It just felt fitting.
  */
+
+/**
+ * @brief The driver code. The code initializes an array that is to act as a test input for the 
+ * algorithm. The array will be passed as one of the parameters for the function that executes 
+ * the linear search algorithm.
+ * 
+ * @return int 
+ */
 int main() {
-    
+
 }
