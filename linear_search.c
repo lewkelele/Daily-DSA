@@ -54,11 +54,11 @@ int linearSearch(int input[], int n, int identify) {
  */
 int main() {
   int input[]  = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};       // Array of size n
-  int n = sizeof(input)/sizeof(input[0]);              // Size of array
+  int n        = sizeof(input)/sizeof(input[0]);       // Size of array
   int identify = 9;                                    // Desired element
 
   int position = linearSearch(input, n, identify);     // passes array to Linear Search for processing
-  printf("The element is at position %d \n",    // outputs the position of the searched element
+  printf("The element is at position %d \n",   // outputs the position of the searched element
   position);
   
   return 0;
