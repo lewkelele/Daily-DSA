@@ -43,7 +43,7 @@ int linearSearch(int input[], int n, int identify) {
   }
 
   return -1;
-}
+} // end linearSearch
 
 /**
  * @brief The driver code. The code initializes an array that is to act as a test input for the 
@@ -62,4 +62,4 @@ int main() {
   position);
   
   return 0;
-}
+} // end main
