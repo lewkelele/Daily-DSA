@@ -35,7 +35,7 @@
  * @return int 
  */
 int linearSearch(int input[], int n, int identify) {
-  for(int i = 0; i < n; i++) {        // traverses through the array, given the array's address
+  for (int i = 0; i < n; i++) {        // traverses through the array, given the array's address
     if (*(input + i) == identify)     /* the compiler understands that incrementing an array's
                                        * address is to move along the array relative to the 
                                        * address */
