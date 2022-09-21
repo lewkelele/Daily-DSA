@@ -56,9 +56,11 @@ int binarySearch(int input[], int n, int find) {
  *   it will be no different to placing 'true' as the condition. This conclusion may be flawed upon further thought.
  *   I will have to analyze this more thoroughly at another time as the loop will not terminate if the element is
  *   not in the data set.
+ *   220921:0050 I think the issue lies with the assignmnet for 'end', instead of 'n' why not 'n - 1'.
+ *   220921:0051 I was right.
  */
   int beginning  = 0;
-  int end        = n;
+  int end        = n - 1;
   while (beginning != end) {
     int midpt   = (beginning + end) / 2;
     int current = *(input + midpt);
@@ -85,7 +87,7 @@ int binarySearch(int input[], int n, int find) {
 int main () {
   int input[]  = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};       // Array of size n
   int n        = sizeof(input)/sizeof(input[0]);       // Size of array
-  int find     = 0;                                    // Desired element
+  int find     = -1;                                    // Desired element
 
   int position = binarySearch(input, n, find);
   printf("The element is at position %d \n",   // outputs the position of the searched element
