@@ -1,0 +1,2 @@
+# Introduction
+The current intent of this repository is to act as a storage for my analysis of data structures and algorithms. I plan to study a data structure or algorithm at least an hour every day; although, I will recognize that there may exist circumstances in which I find myself too busy. In which case, I will opt to just review and make small changes/fixes if time permits.
